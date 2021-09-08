@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="icon" href="img/logo.png" type="image/icon">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link href="library/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="library/bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="library/animate/animate.min.css">
+</head>
+     
+<body>
+     <div class="overlay-itro"></div>
+      
+      
+
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" ></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+        </ol>
+      
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div id="home" class="intro route bg-image" style="background-image: url(img/post-3.jpg)">
+              <div class="overlay-itro"></div>
+                <div class="intro-content display-table">
+                  <div class="table-cell">
+                    <div class="container wow fadeInUp">
+                        
+                      <div class="row justify-content-center">
+            
+                        <div class="col-lg-5 box">
+                            <p  class="text-center">Not a member ? click the left arrow button to become one</p>
+                            <div class="card">
+                                 <div class="card-body">
+                                  
+                                <form method="" action="">
+            
+                                  <p><input type="email"  id="email" class="form-control" id="email" placeholder="Email" name="email"> </p>
+                                  <p><input type="password"  class="form-control search" placeholder="Password" id="password"  name="password"><i class="fa fa-eye" id="togglePassword"></i></p>
+                                  <p class="rem"><input type="checkbox"  value="remember"  name="remember"> Remember me ?</p>
+                                  
+                                  <button style="text-align:center; display:block; margin:0 auto; border-radius:17px;" class="btn btn-primary" type="submit">Login <i class="fa fa-user"></i></button>
+                                
+                                 </form>
+            
+                             </div>
+                        </div>
+                        </div>
+            
+            
+                    </div>
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+      
+          <div class="carousel-item">
+            <div id="home" class="intro route bg-image" style="background-image: url(img/city.jpg)">
+              <div class="overlay-itro"></div>
+              <div class="intro-content display-table">
+                <div class="table-cell">
+                  <div class="container wow fadeInUp">
+                    <div class="row justify-content-center">
+            
+                      <div class="col-lg-5 box">
+                          <marquee  class="text-center">Already a member ? click the right arrow to login</marquee>
+                          <div class="card">
+                               <div class="card-body">
+                                
+                              <form method="" action="">
+          
+                                <p><input type="email"  id="email" class="form-control" id="email" placeholder="Email" name="email"/> </p>
+                                <p><input type="text"  id="username" class="form-control" id="email" placeholder="Username" name="username"/> </p>
+                                <p><input type="password"  class="form-control search" placeholder="Password" id="password"  name="password"/></p>
+                                <p><input type="password"  class="form-control search" placeholder="confirm Password" id="confirm-password"  name="confirm-password"><i class="fa fa-eye" id="togglePassword"></i></p>
+                                <p class="rem"><input type="checkbox"  value="remember"  name="remember"/> Remember me ?</p>
+                                
+                                <button style="text-align:center; display:block; margin:0 auto; border-radius:17px;" class="btn btn-primary" type="submit">Register <i class="fa fa-check"></i></button>
+                              
+                               </form>
+          
+                           </div>
+                      </div>
+                      </div>
+          
+          
+                  </div>
+        
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+      
+        </div>
+      
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+         <!--<span class="carousel-control-prev-icon"></span>-->
+         <span class="fa fa-angle-left" style="font-size:50px; color:red; font-weight: 800;"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+         <!-- <span class="carousel-control-next-icon"></span>--->
+         <span class="fa fa-angle-right" style="font-size:50px; font-weight: 800; color:red;"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    
+          <!--<div class="col-lg-12" >
+                    <h1 id="demo" style="color:white;"></h1>
+
+                 </div>-->
+           
+        </div>
+     </div>
+
+
+     <section class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="copyright-box">
+                
+                <div class="credits">
+                 
+                 <a href="tel:+2347013950375" class="text-center" style="color:white;"> Designed by Sadiq Garba</a>
+                
+                </div>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+     <!-- <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("Dec 25, 2020 15:37:25").getTime();
+        
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+        
+          // Get today's date and time
+          var now = new Date().getTime();
+        
+          // Find the distance between now and the count down date
+          var distance = countDownDate - now;
+        
+          // Time calculations for days, hours, minutes and seconds
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        
+          // Display the result in the element with id="demo"
+          document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+          + minutes + "m " + seconds + "s ";
+        
+          // If the count down is finished, write some text
+          if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "EXPIRED";
+          }
+        }, 1000);
+        </script>-->
+       
+        <script src="library/jquery/jquery.min.js"></script>
+       <!-- <script src="library/js/main.js"></script>-->
+       <script src="library/wow/wow.min.js"></script>
+        <script src="library/jquery/jquery-migrate.min.js"></script>
+        <script src="library/bootstrap/js/bootstrap.min.js"></script> 
+        
+        <script>
+         $(document).ready( function() {
+
+           $('#myCarousel').carousel({
+            
+             interval: false
+
+           });
+
+           $('.carousel-control-prev').click(function(){
+             
+              var audio = new Audio('audio/success.mp3');
+              audio.play();
+         
+         
+           }); 
+
+           $('.carousel-control-next').click(function(){
+             
+             var audio = new Audio('audio/success.mp3');
+             audio.play();
+        
+        
+          }); 
+
+         });
+
+        </script>
+     </body>
+
+
+
+
+
+
+
+</html>
